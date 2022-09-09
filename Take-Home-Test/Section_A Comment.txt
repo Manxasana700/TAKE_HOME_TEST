@@ -1,0 +1,24 @@
+Correctness: 1
+Efficiency: 2
+Style: 2
+Documentation: 1
+
+Code comments to assist the student
+- Thank you for your submission.This was a very good attempt. However there are some warnings in your program
+that need to be adressed in order for your program to produce an efficient solution.
+
+- on line 3, the program returns an indentation error with the message 'Indentation Error: unindent does not match any outer indentation level'
+which occurs when we mix tabs and spaces in the same code block. Here is a resource that provides an explaination and how you refactor your
+code to fix this error - https://bobbyhadz.com/blog/python-indentationerror-unindent-does-not-match-any-outer-indentation-level
+
+- once you have fixed this error, your program will run into a Type error on line 12 with the message 'TypeError: sorted expected 1 argument, got 0'.
+This is because the sorted() function that you are using returns a sorted list of the specified iterable object. You can read more on the sorted() function here -
+https://www.programiz.com/python-programming/methods/built-in/sorted
+
+- With regards to your variables (x and ob1), these are not descriptive enough to help the reader understand your code. Please try and use descriptive names going forward as you have done
+with the result variable in your program.
+- Lastly you need to add comments to your code as well to help the reader understand the logic of your code. You will be working with a group of coders when you
+have completed your Bootcamp and therefore when collaborating with a team, it is important that our code has to contain comments.
+
+
+- You are on the right, make these corrections and resubmit. Thank you.
